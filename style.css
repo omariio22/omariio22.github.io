@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  background-image: url("maroc.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-container {
+  width: 5cm;
+  height: 5cm;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.info {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #6c63ff;
+}
+
+.info ul {
+  list-style-type: none;
+}
+
+.info ul li {
+  margin-bottom: 10px;
+}
+
+.experience,
+.competences,
+.formation,
+.langues {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience h2,
+.competences h2,
+.formation h2,
+.langues h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #6c63ff;
+}
+
+.experience ul,
+.competences ul,
+.formation ul,
+.langues ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.experience-item,
+.formation-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h3,
+.formation-item h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #4a47a3;
+}
+
+.experience-item p,
+.formation-item p {
+  margin: 0;
+}
+
+.langues ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  color: #888;
+}
